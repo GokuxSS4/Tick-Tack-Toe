@@ -1,0 +1,43 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+html, 
+body {
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.result{
+    margin: 5px;
+    font-size: larger;
+}
+
+.tick_tack_toe{
+    display: flex;
+    flex-wrap: wrap;
+    width:360px;
+    height: 360px;
+}
+
+.cell{
+    width:120px;
+    height: 120px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+
